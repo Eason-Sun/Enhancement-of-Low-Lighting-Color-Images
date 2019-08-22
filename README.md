@@ -65,6 +65,13 @@ Without taking tonality into consideration, histogram equalization will sometime
 ![Capture](https://user-images.githubusercontent.com/29167705/63471044-32bf7200-c43c-11e9-8fe2-fd3456e66a1a.JPG)
 
 ## Solution: Optimal Contrast-Tone Mapping (OCTM)
+
+### Original Paper: 
+Xiaolin Wu. (2011) A Linear Programming Approach for Optimal Contrast-Tone Mapping. IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL.20, NO.5, MAY 2011.  
+
+### Link: 
+https://www.ece.mcmaster.ca/~xwu/703/octm.pdf
+
 Since pixel values are discrete, histogram is an approximation to a PDF, and no new allowed
 intensity levels are created in this process, thus, it is not rare to see many-to-one intensity
 levels’ mappings. Therefore, this process might reduce the number of possible intensity
